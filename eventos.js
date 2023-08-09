@@ -1,7 +1,10 @@
-const container = document.getElementById("container");
+const constante = document.getElementById("container");
+const boton = document.getElementById("saludar");
 
-function alertas() {
+function alertaDiv() {
   alert("Hola soy el div");
 }
-container.addEventListener("click", alertas);
 
+function alertaBoton() {
+  alert("Hola soy el botón");
+}
